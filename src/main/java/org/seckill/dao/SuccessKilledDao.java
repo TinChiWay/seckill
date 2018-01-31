@@ -8,7 +8,7 @@ import org.seckill.entity.SuccessKilled;
  */
 public interface SuccessKilledDao {
     /**
-     * 插入购买明细，可过滤重复
+     * 插入购买明细，可过滤重复(ignore)
      * @param seckillId
      * @param userPhone
      * @return 插入的行数
